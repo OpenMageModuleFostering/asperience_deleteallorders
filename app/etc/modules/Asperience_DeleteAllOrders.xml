@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   ASPerience
+ * @package    Asperience_DeleteAllOrders
+ * @author     ASPerience - www.asperience.fr
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Asperience_DeleteAllOrders>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Asperience_Notificationmanager/>
+            </depends>
+        </Asperience_DeleteAllOrders>
+    </modules>
+</config>
